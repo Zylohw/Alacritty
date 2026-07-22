@@ -31,3 +31,15 @@ blue    = "#42C6FF"
 magenta = "#FF2AFC"
 cyan    = "#3DD8FF"
 white   = "#F4F6F9"
+
+# Colores "dim" explícitos para texto atenuado (ANSI faint),
+# como el autocompletado inline de PSReadLine (InlinePrediction).
+[colors.dim]
+black   = "#3A2A40"
+red     = "#5C2035"
+green   = "#2A5C40"
+yellow  = "#5C5620"
+blue    = "#3A2A5C"
+magenta = "#4E2A5C"
+cyan    = "#2A4E5C"
+white   = "#4A4A58"
