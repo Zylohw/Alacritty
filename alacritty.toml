@@ -1,0 +1,77 @@
+# Alacritty config generado a partir de settings.json de Windows Terminal
+# Perfil base: MaterialOcean, Hack Nerd Font Mono, opacidad 90%
+
+[window]
+opacity = 0.9
+padding = { x = 8, y = 8 }
+decorations = "full"
+dimensions = { columns = 120, lines = 30 }
+
+[font]
+size = 15.0
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+style = "Italic"
+
+# Directorio de inicio explícito, para no heredar System32 del proceso padre (explorer.exe)
+[general]
+working_directory = 'C:\Users\pvasq'
+
+# Shell por defecto en Windows -> PowerShell (ruta exacta del usuario)
+[terminal.shell]
+program = 'C:\Users\pvasq\AppData\Local\Microsoft\WindowsApps\Microsoft.PowerShell_8wekyb3d8bbwe\pwsh.exe'
+args = ["-NoLogo"]
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "#0F111A"
+foreground = "#8F93A2"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#FFCC00"
+
+[colors.selection]
+text = "CellForeground"
+background = "#1F2233"
+
+[colors.normal]
+black   = "#546E7A"
+red     = "#FF5370"
+green   = "#C3E88D"
+yellow  = "#FFCB6B"
+blue    = "#82AAFF"
+magenta = "#C792EA"
+cyan    = "#89DDFF"
+white   = "#FFFFFF"
+
+[colors.bright]
+black   = "#546E7A"
+red     = "#FF5370"
+green   = "#C3E88D"
+yellow  = "#FFCB6B"
+blue    = "#82AAFF"
+magenta = "#C792EA"
+cyan    = "#89DDFF"
+white   = "#FFFFFF"
+
+[keyboard]
+bindings = [
+  { key = "C", mods = "Control", action = "Copy" },
+  { key = "V", mods = "Control", action = "Paste" },
+  { key = "F", mods = "Control|Shift", action = "SearchForward" },
+]
