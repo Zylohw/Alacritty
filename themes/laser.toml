@@ -1,0 +1,33 @@
+# Tema: Laser
+
+[colors.primary]
+background = "#030D18"
+foreground = "#F106E3"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#00FF9C"
+
+[colors.selection]
+text = "CellForeground"
+background = "#2E206A"
+
+[colors.normal]
+black   = "#626262"
+red     = "#FF8373"
+green   = "#B4FB73"
+yellow  = "#09B4BD"
+blue    = "#FED300"
+magenta = "#FF90FE"
+cyan    = "#D1D1FE"
+white   = "#F1F1F1"
+
+[colors.bright]
+black   = "#8F8F8F"
+red     = "#FFC4BE"
+green   = "#D6FCBA"
+yellow  = "#FFFED5"
+blue    = "#F92883"
+magenta = "#FFB2FE"
+cyan    = "#E6E7FE"
+white   = "#FFFFFF"

@@ -1,0 +1,33 @@
+# Tema: Blue Matrix
+
+[colors.primary]
+background = "#101116"
+foreground = "#00A2FF"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#76FF9F"
+
+[colors.selection]
+text = "CellForeground"
+background = "#C1DEFF"
+
+[colors.normal]
+black   = "#101116"
+red     = "#FF5680"
+green   = "#00FF9C"
+yellow  = "#FFFC58"
+blue    = "#00B0FF"
+magenta = "#D57BFF"
+cyan    = "#76C1FF"
+white   = "#C7C7C7"
+
+[colors.bright]
+black   = "#686868"
+red     = "#FF6E67"
+green   = "#5FFA68"
+yellow  = "#FFFC67"
+blue    = "#6871FF"
+magenta = "#D682EC"
+cyan    = "#60FDFF"
+white   = "#FFFFFF"

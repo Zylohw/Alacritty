@@ -1,0 +1,33 @@
+# Tema: MaterialOcean (activo por defecto)
+
+[colors.primary]
+background = "#0F111A"
+foreground = "#8F93A2"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#FFCC00"
+
+[colors.selection]
+text = "CellForeground"
+background = "#1F2233"
+
+[colors.normal]
+black   = "#546E7A"
+red     = "#FF5370"
+green   = "#C3E88D"
+yellow  = "#FFCB6B"
+blue    = "#82AAFF"
+magenta = "#C792EA"
+cyan    = "#89DDFF"
+white   = "#FFFFFF"
+
+[colors.bright]
+black   = "#546E7A"
+red     = "#FF5370"
+green   = "#C3E88D"
+yellow  = "#FFCB6B"
+blue    = "#82AAFF"
+magenta = "#C792EA"
+cyan    = "#89DDFF"
+white   = "#FFFFFF"

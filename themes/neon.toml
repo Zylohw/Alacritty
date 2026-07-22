@@ -1,0 +1,33 @@
+# Tema: Neon
+
+[colors.primary]
+background = "#14161A"
+foreground = "#00FFFC"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#C7C7C7"
+
+[colors.selection]
+text = "CellForeground"
+background = "#0013FF"
+
+[colors.normal]
+black   = "#000000"
+red     = "#FF3045"
+green   = "#5FFA74"
+yellow  = "#FFFC7E"
+blue    = "#0208CB"
+magenta = "#F924E7"
+cyan    = "#00FFFC"
+white   = "#C7C7C7"
+
+[colors.bright]
+black   = "#686868"
+red     = "#FF5A5A"
+green   = "#75FF88"
+yellow  = "#FFFD96"
+blue    = "#3C40CB"
+magenta = "#F15BE5"
+cyan    = "#88FFFE"
+white   = "#FFFFFF"
