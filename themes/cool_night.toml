@@ -1,0 +1,33 @@
+# Tema: coolnight
+
+[colors.primary]
+background = "#010C18"
+foreground = "#ECDEF4"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#38FF9D"
+
+[colors.selection]
+text = "CellForeground"
+background = "#38FF9C"
+
+[colors.normal]
+black   = "#0B3B61"
+red     = "#FF3A3A"
+green   = "#52FFD0"
+yellow  = "#FFF383"
+blue    = "#1376F9"
+magenta = "#C792EA"
+cyan    = "#FF5ED4"
+white   = "#16FDA2"
+
+[colors.bright]
+black   = "#63686D"
+red     = "#FF54B0"
+green   = "#74FFD8"
+yellow  = "#FCF5AE"
+blue    = "#388EFF"
+magenta = "#AE81FF"
+cyan    = "#FF6AD7"
+white   = "#60FBBF"

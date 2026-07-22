@@ -23,8 +23,11 @@ family = "Hack Nerd Font Mono"
 style = "Italic"
 
 # Directorio de inicio explícito, para no heredar System32 del proceso padre (explorer.exe)
+# El "import" carga el tema activo. Cambia esta ruta para intercambiar de tema
+# (o hazlo con un script que reemplace esta línea).
 [general]
 working_directory = 'C:\Users\pvasq'
+import = ["themes/material_ocena.toml"]
 
 # Shell por defecto en Windows -> PowerShell (ruta exacta del usuario)
 [terminal.shell]
@@ -34,40 +37,9 @@ args = ["-NoLogo"]
 [cursor]
 style = { shape = "Beam", blinking = "On" }
 
+# Los colores ahora viven en themes/*.toml, cargados vía [general] import arriba
 [colors]
 draw_bold_text_with_bright_colors = true
-
-[colors.primary]
-background = "#0F111A"
-foreground = "#8F93A2"
-
-[colors.cursor]
-text = "CellBackground"
-cursor = "#FFCC00"
-
-[colors.selection]
-text = "CellForeground"
-background = "#1F2233"
-
-[colors.normal]
-black   = "#546E7A"
-red     = "#FF5370"
-green   = "#C3E88D"
-yellow  = "#FFCB6B"
-blue    = "#82AAFF"
-magenta = "#C792EA"
-cyan    = "#89DDFF"
-white   = "#FFFFFF"
-
-[colors.bright]
-black   = "#546E7A"
-red     = "#FF5370"
-green   = "#C3E88D"
-yellow  = "#FFCB6B"
-blue    = "#82AAFF"
-magenta = "#C792EA"
-cyan    = "#89DDFF"
-white   = "#FFFFFF"
 
 [keyboard]
 bindings = [

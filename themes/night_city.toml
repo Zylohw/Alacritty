@@ -1,0 +1,33 @@
+# Tema: Night City
+
+[colors.primary]
+background = "#090819"
+foreground = "#6600FF"
+
+[colors.cursor]
+text = "CellBackground"
+cursor = "#00FFFF"
+
+[colors.selection]
+text = "CellForeground"
+background = "#4A7AFF"
+
+[colors.normal]
+black   = "#283034"
+red     = "#FF0000"
+green   = "#00FF80"
+yellow  = "#FFD400"
+blue    = "#E388FF"
+magenta = "#9900FF"
+cyan    = "#00E5FF"
+white   = "#6600FF"
+
+[colors.bright]
+black   = "#FF1998"
+red     = "#FF006E"
+green   = "#83FF52"
+yellow  = "#E5FF00"
+blue    = "#42C6FF"
+magenta = "#FF2AFC"
+cyan    = "#3DD8FF"
+white   = "#F4F6F9"
