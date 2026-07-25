@@ -27,7 +27,7 @@ style = "Italic"
 # (o hazlo con un script que reemplace esta línea).
 [general]
 working_directory = 'C:\Users\pvasq'
-import = ["themes/material_ocena.toml"]
+import = ["themes/cool_night.toml"]
 
 # Shell por defecto en Windows -> PowerShell (ruta exacta del usuario)
 [terminal.shell]
